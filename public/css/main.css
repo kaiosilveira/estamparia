@@ -6,13 +6,15 @@ body {
 }
 
 h1 {
-   color: white;
    font-size: 72px;
-   font-family: sans-serif;
 }
 
 h2 {
    font-size: 30px;
+}
+
+H4 {
+  font-size: 22px;
 }
 
 section {
@@ -20,6 +22,7 @@ section {
    padding-right: 25px;
    padding-top: 50px;
    padding-bottom: 50px;
+   border-bottom: 1px solid #ddd;
 }
 
 section p {
@@ -29,11 +32,25 @@ section p {
 footer {
    background-color: #3a3a3a;
    width: 100vw;
-   height: 60vh;
+   height: 40vh;
 }
 
 .bg {
-   background: url(../img/bg.jpg);
+   background: url(../img/bg2.jpg);
+}
+
+#title {
+  font-weight: bold;
+  color: white;
+}
+
+#map {
+    width: 100%;
+    height: 80%;
+}
+
+.container {
+  width: 90%;
 }
 
 .fullscreen {
@@ -50,6 +67,40 @@ footer {
 }
 
 .footer-icon {
-   color: white;
-   font-size: 20px;
+   color: #fff;
+   font-size: 40px;
+   margin: 15px;
+}
+
+.footer-icon, .footer-icon:hover, .footer-icon:visited, .footer-icon:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-anchor, .footer-anchor:hover, .footer-anchor:visited, .footer-anchor:active {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-anchor:hover {
+  text-decoration: underline;
+}
+
+.footer-anchor {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.service-description-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.service-description-box h4 {
+  font-weight: bold;
 }

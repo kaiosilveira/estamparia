@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html>
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,116 +15,196 @@
 
       <main class="bg fullscreen" id="main">
 
-         <nav class="navbar is-fixed-top">
-            <a class="navbar-item" href="#main">
-              <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="Bulma">
-            </a>
-            <a href="#about" class="navbar-item">Quem Somos</a>
-            <a href="#about-services" class="navbar-item">O que fazemos</a>
-            <a href="#products" class="navbar-item">Produtos e serviços</a>
-            <a href="#contact" class="navbar-item">Fale Conosco</a>
-         </nav>
-
          <div class="wrapper fullscreen">
-            <h1>Título aqui</h1>
-            <button class="button is-info" type="button" name="button">Conheça nossa loja</button>
+            <h1 id="title">Estamparia</h1>
+            <p style="color: white; width: 70%; font-size: 18px; font-weight: bold; text-align: center; padding-bottom: 15px;">
+              Precisando de uma camisa nova? Uma caneca que reflita seus gostos ou um uniforme novo para sua empresa? Podemos ajudar!
+            </p>
+            <button class="button is-info is-large" type="button" name="button">Conheça nossa loja</button>
          </div>
       </main>
 
       <section id="about">
-         <h2>Quem somos</h2>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>
+         <div class="container">
+           <h2>Quem somos</h2>
+           <p>
+            Somos uma equipe dedicada a entregar exatamente o que você precisa.
+            Buscamos propiciar a melhor experiência possível, desde a escolha do seu novo produto até a entrega.
+            Para isso, garantimos uma vasta variedade de produtos, diferentes formas de pagamento e a possibilidade
+            de retirada dos produtos no local. Visite nossa loja online ou nossa loja física e conheça todas as opções.
+          </p>
+         </div>
       </section>
 
       <section id="about-services">
-         <h2>O que fazemos</h2>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>
+         <div class="container">
+           <div style="margin-bottom: 15px;">
+             <h2>O que fazemos</h2>
+             <p>
+               Utilizamos tecnicas variadas de impressão para atingirmos resultados satisfatórios em diferentes situaçöes.
+               Listamos algumas delas abaixo
+            </p>
+           </div>
+           <div style="display: flex; justify-content: space-around;">
+             <div class="box" style="width: 30%;">
+               <img src="./img/bg.jpg" alt="baloon">
+                <h3 style="font-weight: bold; font-size: 22px">Transfer em camisetas</h3>
+                <p>
+                  Utilizando uma tinta especial e uma máquina de tranferência de calor,
+                  somos capazes de estampar de forma rápida e eficiente uma imagem em uma camiseta:
+                  a foto de seu filho, da família, do animal de estimaçāo, da sua marca ou de qualquer imagem que nos trouxer!
+                </p>
+             </div>
+             <div class="box" style="width: 30%;">
+               <img src="./img/bg2.jpg" alt="baloon">
+                <h3 style="font-weight: bold; font-size: 22px">Transfer em canecas</h3>
+                <p>
+                  De forma semelhante a citada ao lado esquerdo,
+                  podemos realizar o processo em canecas protegidas por uma resina especial, que garante que
+                  lavagens nāo danifiquem a imagem estampada e mantenha a alta resoluçāo. O resultado é incrível!
+                </p>
+             </div>
+             <div class="box" style="width: 30%; margin-bottom: 1.5rem;">
+               <img src="./img/bg3.jpg" alt="baloon">
+                <h3 style="font-weight: bold; font-size: 22px">Silkscreen</h3>
+                <p>
+                  Uma técnica mais trabalhosa e manual, entretanto, mais precisa, permite que façamos estampas em alto relevo,
+                  com uma riqueza de cores e uma alta resistência ao tempo e as lavagens. Os resultados sāo excelentes!
+                </p>
+             </div>
+           </div>
+         </div>
       </section>
-
 
       <section id="products">
-         <h2>Produtos e serviços</h2>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>
+         <div class="container">
+           <h2>Produtos e serviços</h2>
+           <p>
+             Oferecemos as seguintes modalidades de serviço,
+             garantindo que poderemos atendê-lo em diferentes situações e necessidades
+           </p>
+
+           <div class="service-description-box">
+             <h4>Produtos avulso</h4>
+             <p>
+               Nossa loja online possui um estoque com uma enorme variedade de produtos,
+               para diferentes gostos e preferências, <a href="#">conheça nossos produtos</a>
+
+             </p>
+           </div>
+
+           <div class="service-description-box">
+             <h4>Produtos personalizados</h4>
+             <p>
+               Viu uma imagem que gostaria de ter em uma camiseta ou caneca?
+               Contate-nos e garantiremos essa estampa única nas suas māos o quanto antes
+             </p>
+           </div>
+
+           <div class="service-description-box">
+             <h4>Encomendas</h4>
+             <p>
+               Precisa de um uniforme novo para sua equipe? Camisetas para um evento importante?
+               Conte conosco! Entregamos em toda a grande Sāo Paulo, ABC e arredores. Mas, se preferir,
+               há a possibilidade de retirada em nossa loja física
+             </p>
+           </div>
+         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" style="display: flex; flex-direction: column;">
 
-         <h2 style="text-align: center;">Contato</h2>
+        <h2 style="text-align: center;">Contato</h2>
 
-         <div style="display: flex; justify-content: center; align-items: center; ">
+         <div style="display: flex; width: 100%;margin-top: 20px;">
+           <div style="width: 50%;">
+             <p style="text-align: center;">
+               Alguma dúvida? Deixe-nos saber! Preencha o formulário ao lado e entraremos em contato o mais rápido possível.
+               Ou, se preferir, visite-nos: <address style="text-align: center;">Rua Simone Goçalves, 129. Jardim Ipê, Mauá - SP</address>
+               <div id="map"></div>
+             </p>
+           </div>
 
-            <form style="width: 60%;">
+           <div style="display: flex; width: 50%; justify-content: center; align-items: center; ">
 
-               <div class="field">
-                 <label class="label">Nome</label>
-                 <div class="control">
-                   <input class="input" type="text" placeholder="Seu Nome Completo Aqui">
+              <form style="width: 60%;">
+
+                 <div class="field">
+                   <label class="label">Nome</label>
+                   <div class="control">
+                     <input class="input" type="text" placeholder="Seu Nome Completo Aqui">
+                   </div>
                  </div>
-               </div>
 
-               <div class="field">
-                 <label class="label">Email</label>
-                 <div class="control has-icons-left has-icons-right">
-                    <input class="input" type="email" placeholder="email@exemplo.com">
-                   <span class="icon is-small is-left">
-                     <i class="fa fa-envelope"></i>
-                   </span>
+                 <div class="field">
+                   <label class="label">Email</label>
+                   <div class="control has-icons-left has-icons-right">
+                      <input class="input" type="email" placeholder="email@exemplo.com">
+                     <span class="icon is-small is-left">
+                       <i class="fa fa-envelope"></i>
+                     </span>
+                   </div>
                  </div>
-               </div>
 
-               <div class="field">
-                 <label class="label">Mensagem</label>
-                 <div class="control">
-                   <textarea class="textarea" placeholder="Sua mensagem aqui..."></textarea>
+                 <div class="field">
+                   <label class="label">Mensagem</label>
+                   <div class="control">
+                     <textarea class="textarea" placeholder="Sua mensagem aqui..."></textarea>
+                   </div>
                  </div>
-               </div>
 
-               <div class="field" style="display: flex; justify-content: flex-end;">
-                  <button class="button is-info" type="button" name="button">Enviar</button>
-               </div>
+                 <div class="field" style="display: flex; justify-content: flex-end;">
+                    <button class="button is-info" type="button" name="button">Enviar</button>
+                 </div>
 
-            </form>
+              </form>
+
+           </div>
 
          </div>
-
       </section>
 
-      <footer style="display: flex;">
+      <footer style="display: flex; flex-direction: column; justify-content: center; align-items: center; color: white;">
 
-         <div style="display: flex; width: 50%;">
+        <!--div class="footer-wrapper">
+          <a href="#title" class="footer-anchor">Quem somos</a>
+          <a href="#about" class="footer-anchor">O que fazemos</a>
+          <a href="#about-services" class="footer-anchor">Produtos e serviços</a>
+          <a href="#contact" class="footer-anchor">Contato</a>
+        </div-->
 
-         </div>
+        <div class="footer-wrapper">
+          <a href="#" class="footer-icon">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="#" class="footer-icon">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#" class="footer-icon">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
 
-         <div style="display: flex; width: 50%; flex-direction: column;">
-            <i class="footer-icon fa fa-facebook-square"></i>
-            <i class="footer-icon fa fa-facebook-instagram"></i>
-            <i class="footer-icon fa fa-facebook-twitter"></i>
-         </div>
+        <div class="footer-wrapper">
+         &copy; <span class="current-year"></span> Estamparia Inc., all rights reserved.
+        </div>
 
       </footer>
 
+      <!-- Google Maps -->
+      <script src="./js/maps.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTaEfcI27MVFI2GxxdaWsHD1e_KcKvIyU&callback=initMap"
+      async defer></script>
+
+      <!-- JQuery CDN -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Smooth scroll animation -->
+      <script src="./smooth-scroll.js"></script>
+
+      <!-- Current year -->
       <script type="text/javascript">
-         $(function() {
-            $('a[href*="#"]:not([href="#"])').click(function() {
-               if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                  var target = $(this.hash);
-                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                  if (target.length) {
-                    $('html, body').animate({
-                      scrollTop: target.offset().top - $('.navbar').height()
-                    }, 1000);
-                    return false;
-                  }
-               }
-            });
-         });
+          document.querySelector(`.current-year`).innerText = new Date().getFullYear();
       </script>
 
    </body>
